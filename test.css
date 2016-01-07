@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.hacha, .foot {
+  width: 95vw;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+}
+#googleLogo {
+
+  height: 92px;
+  width: 272px;
+}
+.google {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+.searchbar {
+  display: flex;
+  flex-direction: row-reverse;
+  width:443px;
+  height: 60px;
+  border: 1px solid black;
+
+}
+#googleMic {
+  height: 60px;
+  width:auto;
+}
+.button > a {
+  background-color: lightgrey;
+  border-radius: 20%;
+  width: 80px;
+  
+}

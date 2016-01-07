@@ -4,6 +4,7 @@
   display: flex;
   position: fixed;
   top:0;
+  left: 0;
   width: 100vw;
   height: 70px;
   align-items: center;
@@ -11,9 +12,15 @@ justify-content: center;
 padding: 15px;
 z-index: 1;
 }
+.darkness {
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
 .headWrap{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 90vw;
 }
 .hacha a{
@@ -25,9 +32,10 @@ z-index: 1;
 .mid a{
 font-family: sans-serif;
 color: silver;
-font-size: 0.9em;
+font-size: 1em;
 }
 .image1{
+  z-index: 2;
   width:100vw;
   background-image: url("http://d27bqd9qyr2lqg.cloudfront.net/2014/home/header-brogramming-niall-phil.jpg");
   background-repeat: no-repeat;
@@ -68,8 +76,9 @@ font-size: 0.9em;
   color: yellow;
   text-decoration: none;
 }
-video {
+iframe {
   width: 80vw;
+  height: 45vw;
   margin-top: auto;
 }
 #video{

@@ -1,43 +1,203 @@
-body {
-  height: 100vh;
+.hacha{
+  background-color: black;
+  opacity: 0.7;
   display: flex;
- flex-direction: column;
- justify-content: space-between;
+  position: fixed;
+  top:0;
+  width: 100vw;
+  height: 70px;
+  align-items: center;
+justify-content: center;
+padding: 15px;
+z-index: 1;
 }
-
-.hacha, .foot {
-  width: 95vw;
-display: flex;
-justify-content: space-between;
-padding: 20px;
-}
-#googleLogo {
-
-  height: 92px;
-  width: 272px;
-}
-.google {
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-align-items: center;
-}
-.searchbar {
+.headWrap{
   display: flex;
-  flex-direction: row-reverse;
-  width:443px;
-  height: 60px;
-  border: 1px solid black;
+  justify-content: space-between;
+  width: 90vw;
+}
+.hacha a{
+  text-decoration: none;
+  font-family: serif;
+  color: yellow;
+  font-size: 1.8em;
+}
+.mid a{
+font-family: sans-serif;
+color: silver;
+font-size: 0.9em;
+}
+.image1{
+  width:100vw;
+  background-image: url("http://d27bqd9qyr2lqg.cloudfront.net/2014/home/header-brogramming-niall-phil.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height: 620px;
+}
+
+.words1{
+  margin-top: 15vw;
+  color: white;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 2em;
+}
+.words2{
+  margin-top: 5vw;
+  color: white;
+  font-family: serif;
+  font-style: bold;
+  font-size: .9em;
+}
+.words3{
+  margin-top: 5vw;
+  color: white;
+  font-family: serif;
+  font-size: 1.5em;
+}
+.image1 a {
+  padding: 10px;
+  margin-top: 5vw;
+  border: 3px solid yellow;
+  border-radius: 3%;
+  font-family: sans-serif;
+  font-size: 1em;
+  color: yellow;
+  text-decoration: none;
+}
+video {
+  width: 80vw;
+  margin-top: auto;
+}
+#video{
+  height: 1156px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about{
+  margin-top: 4vw;
+  color: silver;
+  font-family: sans-serif;
+  font-size: .9em;
+}
+.weWork{
+  margin-top: 2vw;
+  font-size: 1.5em;
+}
+.sideBy {
+  margin-top: auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.bySide{
+  margin-left: 5vw;
+  max-width: 20vw;
+  text-align: center;
+}
+.icon{
+  max-width: 150px;
+  max-height: 150px;
+}
+.bold {
+  margin-top: 20px;
+  font-family: serif;
+  font-size: 1.7em;
+  font-style: bold;
+}
+.para{
+  margin-top: 15px;
+  font-family: serif;
+  font-size: 1.5em;
+  font-style: normal;
+}
+.link {
+  margin-top: 10px;
+  font-family: serif;
+  font-size: 1.5em;
+}
+.white{
+  background-color: #e0e0e0;
+  height: 1170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.whitePic {
+  max-width: inherit;
+}
+.seperateBar {
+  margin: -100px;
+  padding: 0;
+  font-size: 15em;
+  font-stretch: expanded;
+}
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+li {
+  border-top: 1px solid silver;
+  padding: .5vw;
 
 }
-#googleMic {
-  height: 60px;
-  width:auto;
-}
-.button > a {
-  background-color: lightgrey;
-  border-radius: 20%;
-  width: 80px;
+.tealPics {
+  background-color: teal;
+  max-height: 1170px;
+  min-height: 100px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+font-size: 0px;
 
-  
+}
+.learn {
+  margin:15px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-style: bold;
+}
+.sixPics {
+  position:relative;
+  background-size: cover;
+  width:100vw;
+  background-size: 100% 100%;
+}
+#picsSix1 {
+  width: 33.5vw;
+  position:relative;
+z-index: 999;
+}
+.final{
+  background-color: #302a39;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+div.last{
+  color: white;
+  max-width: 50vw;
+  text-align: center;
+
+}
+.start {
+  background-color: #5874b4;
+  border-radius: 3%;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: .8em;
+  padding: 10px;
+}
+p {
+  color: white;
+}
+span {
+  text-decoration: underline;
 }
